@@ -1,0 +1,53 @@
+html{
+	background: url(../images/orange-yellow-bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a{
+	text-decoration: none;
+}
+
+.name{
+	text-align: center;
+	font-family: 'PT Serif', sans-serif;
+	color: white;
+	font-size: 3.5em;
+	padding: 40px 0;
+}
+
+.icons-container{
+	margin: 0 auto;
+	width: 20%;
+	padding: 10px 0;
+	border-top: 2px solid rgba(255, 228, 88, .3);
+	border-bottom: 2px solid rgba(255, 228, 88, .3);
+}
+
+.icon-linkedin, 
+.icon-codepen,
+.icon-messages,
+.icon-github{
+	color: rgba(255, 255, 255, .7);
+	font-size: 2em;
+	margin: 0 10px;
+}
+
+.icon-linkedin:hover, 
+.icon-codepen:hover,
+.icon-messages:hover,
+.icon-github:hover{
+	color: white;
+	cursor: pointer;
+}
+
+.desc{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	width: 80%;
+	color: white;
+	font-size: 1.6em;
+	margin: 40px auto;
+}
